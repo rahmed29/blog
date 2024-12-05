@@ -185,6 +185,8 @@ export function Index({ state, posts, lanyard }: IndexProps) {
 
         {state.footer || <Footer author={state.author} />}
       </div>
+      <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+      <script src="/public/holiday_confetti.js"></script>
     </div>
   );
 }
