@@ -4,11 +4,11 @@ import blog from "./src/blog.tsx";
 import "jsr:@std/dotenv/load";
 
 blog({
-  title: "ryan",
+  title: "ryaan",
   description: "\n",
   avatar: "./public/ava.jpg",
   avatarClass: "rounded",
-  author: "ryan",
+  author: "ryaan",
   // These are env variables cause...
   // Won't leak discord UUID
   discord: Deno?.env.get("DISCORD") || "",
